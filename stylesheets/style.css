@@ -29,6 +29,9 @@ body {
   display: flex;
   align-items: center; }
 
+l-align-center {
+  align-items: center; }
+
 button-secondary {
   border: 0;
   background: #444857; }
@@ -63,6 +66,27 @@ button-secondary {
 .header-buttons .button {
   margin-right: 8px;
   min-width: 100px; }
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: black; }
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none; }
+
+.footer-links li {
+  margin-right: 1rem; }
+
+footer-links h4 {
+  margin: 2px;
+  margin-right: 1rem; }
+
+.footer-logo {
+  font-size: 2rem; }
 
 .search-form {
   padding: 8px;
