@@ -13,6 +13,12 @@ body {
   box-sizing: border-box;
   color: #FFFFFF; }
 
+.get-start-text {
+  margin: .2em;
+  font-size: .8em;
+  text-align: center;
+  color: #b7bbc8; }
+
 .l-flex {
   display: flex; }
 
@@ -29,7 +35,7 @@ body {
   display: flex;
   align-items: center; }
 
-l-align-center {
+.l-align-center {
   align-items: center; }
 
 .l-margin-left-2rem {
@@ -37,6 +43,15 @@ l-align-center {
 
 .l-section {
   margin: 32px 0; }
+
+.badge {
+  background: #ffdd40;
+  border-radius: 4px;
+  margin-left: 4px;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 4px; }
 
 button-secondary {
   border: 0;
@@ -46,12 +61,6 @@ button-secondary {
   border: 0;
   background: #47cf73;
   color: black; }
-
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  padding: 8px 16px;
-  text-align: center; }
 
 .button-logo {
   margin: 0 16px;
@@ -66,12 +75,81 @@ button-secondary {
   padding: 8px;
   width: 100%; }
 
-.header-buttons {
+.button {
+  display: inline-block;
+  border: 3px solid #aaaebc;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center; }
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px;
+  background: #2c303a; }
+
+.card-description {
+  color: #b7bbc8; }
+
+.card-icon {
+  background: black;
+  position: relative;
+  left: 16px;
+  top: 32px;
+  height: 64px;
+  width: 64px;
+  border-radius: 6px;
+  text-align: center; }
+
+.card-footer {
+  margin: 16px 0; }
+
+.product-item {
+  margin: 2rem 1rem;
+  width: 360px; }
+
+.product-message-body {
+  color: #b7bbc8;
+  margin-bottom: 16px; }
+
+.product-item-card {
+  border-radius: 4px;
+  background: #2c303a;
+  transition: .2s; }
+
+.product-item-row {
+  justify-content: center; }
+
+.product-item-card-image {
+  width: 350px;
+  border-radius: 4px;
+  margin: auto;
   padding: 8px; }
 
-.header-buttons .button {
-  margin-right: 8px;
-  min-width: 100px; }
+.product-item-card-body {
+  display: flex;
+  padding: 16px;
+  padding-top: 0; }
+
+.product-item-card-image img {
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%; }
+
+.product-item-list-footer {
+  display: flex;
+  justify-content: center; }
+
+.product-item-card-footer-card {
+  background: black;
+  border-radius: 4px;
+  margin-right: 4px;
+  padding: 2px 4px; }
+
+.product-item-card-body-avator img {
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%; }
 
 .code-card-html {
   position: relative;
@@ -103,6 +181,43 @@ button-secondary {
 .code-card-body p {
   margin: 0; }
 
+.card-icon .fa {
+  font-size: 48px;
+  position: relative;
+  top: 8px; }
+
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between; }
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px; }
+
+.hilight-orange {
+  color: #a88038; }
+
+.hilight-beige {
+  color: #e1ca72; }
+
+.hilight-green {
+  color: #74b087; }
+
+.hilight-blue {
+  color: #7a99ad; }
+
+.hilight-purple {
+  color: #9f8198; }
+
+.features-card {
+  margin: 2rem 1rem; }
+
+.features {
+  justify-content: center; }
+
+.features .card {
+  height: 340px; }
+
 .footer {
   justify-content: space-between;
   align-items: center;
@@ -117,7 +232,7 @@ ul {
 .footer-links li {
   margin-right: 1rem; }
 
-footer-links h4 {
+.footer-links h4 {
   margin: 2px;
   margin-right: 1rem; }
 
@@ -147,8 +262,25 @@ footer-links h4 {
   display: flex;
   flex-wrap: wrap; }
 
+.hero-footer .button {
+  width: 200px;
+  font-size: 1.4em; }
+
+.header-buttons {
+  padding: 8px; }
+
+.header-buttons .button {
+  margin-right: 8px;
+  min-width: 100px; }
+
 .footer-logo {
   font-size: 2rem; }
+
+.hero-logo {
+  font-size: 36px; }
+
+.codepen-logo {
+  text-align: center; }
 
 .search-form {
   padding: 8px;
@@ -165,6 +297,9 @@ footer-links h4 {
   background: #252830;
   border: 0; }
 
+.search-form i {
+  font-size: 20px; }
+
 .sidebar {
   background: #1F1F26; }
 
@@ -175,7 +310,15 @@ ul {
 
 .sidebar-menu-title {
   font-size: .8rem;
-  margin-bottom: .2rem; }
+  margin-bottom: .2rem;
+  margin-left: 16px; }
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px; }
+
+.sidebar-menu a {
+  display: block;
+  padding-left: 16px; }
 
 .text-warning {
   color: #ffdd40; }
@@ -185,3 +328,6 @@ ul {
 
 .text-accent {
   color: #0ebeff; }
+
+.text-weak {
+  color: #b7bbc8; }
