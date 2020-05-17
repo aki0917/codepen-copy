@@ -1,11 +1,12 @@
-button-secondary 
-  border: 0
-  background: #444857
-
-.button-primary 
-  border: 0;
-  background: #47cf73;
-  color: black;
+.button 
+  display: inline-block
+  border: 3px solid #aaaebc
+  border-radius: 4px
+  padding: 8px 16px
+  text-align: center
+  .button:hover 
+    opacity: .4
+    cursor: pointer
 
 .button-logo 
   margin: 0 16px
@@ -16,13 +17,15 @@ button-secondary
 
 .button-logo-text 
   display: block
-  background: black
+  background: background-color
   padding: 8px
   width: 100%
 
-.button 
-  display: inline-block
-  border: 3px solid #aaaebc;
-  border-radius: 4px
-  padding: 8px 16px
-  text-align: center
+.button-primary 
+  border: 0
+  background: #47cf73
+  color: black
+
+.button-secondary 
+  border: 0
+  background: #444857
